@@ -1,0 +1,45 @@
+{"time":"2024-12-19T19:51:02.2970971+02:00", "method":"POST","uri":"/api/v1/auth/token", "status":400,"error":"Key: 'createTokensInput.ClientIP' Error:Field validation for 'ClientIP' failed on the 'ip' tag"}
+{"time":"2024-12-19T19:52:09.1867869+02:00", "method":"POST","uri":"/api/v1/auth/token", "status":200,"error":""}
+{"time":"2024-12-20T16:00:35.2393793+02:00", "method":"POST","uri":"/api/v1/auth/token", "status":200,"error":""}
+{"time":"2024-12-20T16:05:11.3457246+02:00", "method":"POST","uri":"/api/v1/auth/token", "status":500,"error":"user not found"}
+{"time":"2024-12-20T16:06:14.5367786+02:00", "method":"POST","uri":"/api/v1/auth/token", "status":400,"error":"user not found"}
+{"time":"2024-12-20T16:06:26.0639303+02:00", "method":"POST","uri":"/api/v1/auth/token", "status":200,"error":""}
+{"time":"2024-12-20T16:26:59.3855314+02:00", "method":"POST","uri":"/api/v1/auth/token", "status":200,"error":""}
+{"time":"2024-12-21T18:07:58.7780534+02:00", "method":"POST","uri":"/api/v1/auth/token", "status":500,"error":"number of field descriptions must equal number of destinations, got 4 and 1"}
+{"time":"2024-12-21T18:10:44.0400293+02:00", "method":"POST","uri":"/api/v1/auth/token", "status":200,"error":""}
+{"time":"2024-12-21T20:26:00.5924729+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":400,"error":"error parsing access token: token is expired by 1h55m17s"}
+{"time":"2024-12-21T20:32:58.0443088+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T20:35:05.4741387+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T20:38:32.8868887+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T20:39:39.3015533+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T20:40:42.967203+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T20:42:00.7379449+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T20:43:28.3109062+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T20:45:32.7232333+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T20:46:33.1120238+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T20:47:45.769292+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T20:50:49.1984326+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":400,"error":"error parsing access token: token validation error: json: cannot unmarshal object into Go value of type jwt.Claims"}
+{"time":"2024-12-21T20:54:44.5002409+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T20:58:44.6599635+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T21:03:20.3498981+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T21:04:01.3548088+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T21:07:07.0666936+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T21:07:56.0574461+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T21:09:43.574303+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":""}
+{"time":"2024-12-21T21:11:02.2446836+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":"error while getting refresh tokean by userID: ERROR: syntax error at or near \"FROM\" (SQLSTATE 42601)"}
+{"time":"2024-12-21T21:12:57.0321003+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":"error while getting refresh token by userID: can't scan into dest[5]: unable to assign to *string"}
+{"time":"2024-12-21T21:16:40.9588798+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":"error while getting refresh token by userID: can't scan into dest[5]: unable to assign to *string"}
+{"time":"2024-12-21T21:18:34.9521258+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":400,"error":"refresh token not found"}
+{"time":"2024-12-21T21:19:22.0583666+02:00", "method":"POST","uri":"/api/v1/auth/token", "status":200,"error":""}
+{"time":"2024-12-21T21:19:33.5197457+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":200,"error":""}
+{"time":"2024-12-22T14:31:47.7486992+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":200,"error":""}
+{"time":"2024-12-22T14:32:09.45726+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":400,"error":"refresh token already used"}
+{"time":"2024-12-22T14:34:08.2181514+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":400,"error":"refresh token already used"}
+{"time":"2024-12-22T14:38:40.2107872+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":"no sessions found with this user_id"}
+{"time":"2024-12-22T14:44:27.8981188+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":400,"error":"refresh token already used"}
+{"time":"2024-12-22T14:45:02.0373898+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":500,"error":"no sessions found with this user_id"}
+{"time":"2024-12-22T14:49:16.9187376+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":400,"error":"no sessions found with this user_id"}
+{"time":"2024-12-22T14:49:23.9494457+02:00", "method":"POST","uri":"/api/v1/auth/token", "status":200,"error":""}
+{"time":"2024-12-22T14:49:44.8307772+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":200,"error":""}
+{"time":"2024-12-22T14:50:26.6310911+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":200,"error":""}
+{"time":"2024-12-22T14:58:07.1942222+02:00", "method":"POST","uri":"/api/v1/auth/refresh", "status":400,"error":"refresh token already used"}

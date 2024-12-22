@@ -1,0 +1,14 @@
+{"level":"debug","msg":"Initializing smtp-client","time":"2024-12-22 14:57:32"}
+{"level":"error","msg":"error while connecting to smtp-client: %!w(*fmt.wrapError=\u0026{failed to connect to SMTP server: dial tcp: lookup smtp.example.com: no such host 0xc00006e960})","time":"2024-12-22 14:57:32"}
+{"level":"debug","msg":"Connecting postgres...","time":"2024-12-22 14:57:32"}
+{"level":"debug","msg":"Running migrations...","time":"2024-12-22 14:57:39"}
+{"level":"debug","msg":"Initializing repositories...","time":"2024-12-22 14:57:39"}
+{"level":"debug","msg":"Initializing services","time":"2024-12-22 14:57:39"}
+{"level":"debug","msg":"Initializing handlers and routes...","time":"2024-12-22 14:57:39"}
+{"level":"info","msg":"Starting http server...","time":"2024-12-22 14:57:39"}
+{"level":"debug","msg":"Server port: :8080","time":"2024-12-22 14:57:39"}
+{"level":"info","msg":"Server stopped gracefully.","time":"2024-12-22 15:01:04"}
+{"level":"debug","msg":"Initializing smtp-client","time":"2024-12-22 17:30:17"}
+{"level":"error","msg":"error while connecting to smtp-client: %!w(*fmt.wrapError=\u0026{failed to connect to SMTP server: dial tcp: lookup smtp.example.com: no such host 0xc000228000})","time":"2024-12-22 17:30:17"}
+{"level":"debug","msg":"Connecting postgres...","time":"2024-12-22 17:30:17"}
+{"level":"fatal","msg":"error connecting postgres: failed to connect to `host=host.docker.internal user=postgres database=medods-tz`: dial error (dial tcp 10.129.0.119:5432: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)","time":"2024-12-22 17:30:45"}

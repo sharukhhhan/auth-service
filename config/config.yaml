@@ -1,0 +1,27 @@
+http:
+  port: ":8080"
+  shutdown_timeout: 5s
+
+log:
+  level: "debug"
+  log_path: "./logs"
+
+database:
+  postgres:
+    host: "host.docker.internal"
+    port: 5432
+    user: "postgres"
+    password: "12345"
+    name: "medods-tz"
+    migration_path: "./migrations"
+
+jwt:
+  sign_key: "hello"
+  token_ttl: 20m
+  refresh_token_ttl: 168h
+
+smtp:
+  host: "smtp.example.com"
+  port: 587
+  user: "your_email@example.com"
+  password: "your_password"
